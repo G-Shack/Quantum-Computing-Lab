@@ -1,4 +1,4 @@
-name: qsc
+name: qcl
 
 on: [push]
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-          uv add papermill
+          # uv add papermill
           # uv add pylint
           # python -m pip install --upgrade pip
           # pip install pylint
